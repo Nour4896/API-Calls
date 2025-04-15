@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(213, 234, 253);
+}
+
+#title {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(53, 0, 72);
+}
+
+#buttons {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.button {
+    background-color: rgb(53, 0, 72);
+    color: aliceblue;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#sec {
+    background-color: azure;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+#post_title {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(53, 0, 72);
+}
+
+#post_copy {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+#form_title {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(53, 0, 72);
+}
+
+#label {
+    font-family: sans-serif;
+    display: block;
+    font-weight: 600;
+    color: rgb(53, 0, 72);
+}
+
+#post_name, #put_name {
+    padding: 5px 20px 5px 4px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+#post_body, #put_body {
+    width: 95%;
+    resize: none;
+    border-radius: 7px;
+    padding-bottom: 150px;
+    margin-bottom: 15px;
+}
+
+#put_id {
+    padding: 5px 20px 5px 4px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    display: block;
+}
+
+#success, #update_response {
+    padding-left: 5px;
+    font-family: sans-serif;
+}
+
+#post_link {
+    display: block;
+}

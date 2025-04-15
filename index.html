@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab #8</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 id="title">JavaScript Lab #10 - API Calls</h1>
+    <div id="buttons">
+        <button id="fetch" class="button">Fetch Data Using fetch()</button>
+        <button id="xhr" class="button">Fetch Data Using XHR</button>
+    </div>
+    <section id="sec">
+        <h2 id="post_title"></h2>
+        <p id="post_copy"></p>
+    </section>
+    <section id="sec">
+        <form id="post">
+            <h2 id="form_title">New Post</h2>
+            <label for="post_name" id="label">Title</label>
+            <input type="text" id="post_name" name="post_name" required>
+            <label for="post_body" id="label">Body</label>
+            <textarea id="post_body" name="post_body" required></textarea>
+            <button type="submit" form="post" value="Submit" class="button" id="submit">Submit</button><span id="success"></span>
+        </form>
+    </section>
+    <section id="sec">
+        <form id="put">
+            <h2 id="form_title">Update Post</h2>
+            <label for="put_id" id="label">Id of Post</label>
+            <input type="number" id="put_id" name="put_id" max="100">
+            <label for="put_name" id="label">New Title</label>
+            <input type="text" id="put_name" name="put_name" required>
+            <label for="put_body" id="label">New Body</label>
+            <textarea id="put_body" name="put_body" required></textarea>
+            <button type="submit" form="put" value="Submit" class="button" id="edit">Update</button><span id="update_response"></span>
+        </form>
+    </section>
+    <section id="sec">
+        <h2 id="form_title">All Posts</h2>
+        <div id="allposts">
+
+        </div>
+    </section>
+</body>
